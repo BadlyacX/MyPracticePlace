@@ -1,4 +1,4 @@
-package com.mcu.javaProj__20261001.大一計概.循序結構;
+package com.mcu.javaProj__2026.大一計概.循序結構;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

@@ -1,4 +1,4 @@
-package com.mcu.javaProj__20261001.大一程設;
+package com.mcu.javaProj__2026.大一程設;
 
 public class CharacterCode {
     public static void main(String[] args) {

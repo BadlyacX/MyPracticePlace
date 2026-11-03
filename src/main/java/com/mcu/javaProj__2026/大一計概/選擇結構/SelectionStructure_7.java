@@ -1,4 +1,4 @@
-package com.mcu.javaProj__20261001.大一計概.選擇結構;
+package com.mcu.javaProj__2026.大一計概.選擇結構;
 
 import java.util.Scanner;
 

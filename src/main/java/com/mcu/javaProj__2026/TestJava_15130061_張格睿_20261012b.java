@@ -1,4 +1,4 @@
-package com.mcu.javaProj__20261001;
+package com.mcu.javaProj__2026;
 
 public class TestJava_15130061_張格睿_20261012b {
 

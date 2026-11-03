@@ -1,4 +1,4 @@
-package com.mcu.javaProj__20261001.大一程設.期中考;
+package com.mcu.javaProj__2026.大一程設.期中考;
 
 import java.util.Scanner;
 

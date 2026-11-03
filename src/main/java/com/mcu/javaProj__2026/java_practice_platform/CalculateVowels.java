@@ -1,4 +1,4 @@
-package com.mcu.javaProj__20261001.java_practice_platform;
+package com.mcu.javaProj__2026.java_practice_platform;
 
 import java.util.Scanner;
 
