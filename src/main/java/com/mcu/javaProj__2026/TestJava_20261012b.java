@@ -1,6 +1,6 @@
 package com.mcu.javaProj__2026;
 
-public class TestJava_15130061_張格睿_20261012b {
+public class TestJava_20261012b {
 
     public static void main(String[] args) {
         m6(15);
