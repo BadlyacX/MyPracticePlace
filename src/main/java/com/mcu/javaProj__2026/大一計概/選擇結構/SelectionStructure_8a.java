@@ -2,7 +2,7 @@ package com.mcu.javaProj__2026.大一計概.選擇結構;
 
 import java.util.Scanner;
 
-public class SelectionStructure_8_1 {
+public class SelectionStructure_8a {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int price = sc.nextInt();
