@@ -3,30 +3,20 @@ package com.mcu.javaProj__2026.大一計概.選擇結構;
 import java.util.Scanner;
 
 public class SelectionStructure_9 {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("輸入整月工時及固定時薪: (工時, 時薪)");
-        String str = sc.nextLine();
-        String[] strArr = str.trim().split("\\s*,\\s*");
+        int time = sc.nextInt();
+        int baseSalary = sc.nextInt();
 
-        int workTime = Integer.parseInt(strArr[0]);
-        int baseSalary = Integer.parseInt(strArr[1]);
-
-        if (workTime <= 40) {
-            printSalary(baseSalary, 1);
-        } else if (workTime <= 60) {
-            printSalary(baseSalary, 1.33);
-        } else if (workTime <= 80) {
-            printSalary(baseSalary, 1.66);
-        } else if (workTime <= 120) {
-            printSalary(baseSalary, 2);
+        if (time <= 40) {
+            System.out.printf("工時%s小時, 薪資%s", time, time * baseSalary);
+        } else if (time <= 60) {
+            System.out.printf("工時%s小時, 薪資%s", time, time * baseSalary * (1.33));
+        } else if (time <= 80) {
+            System.out.printf("工時%s小時, 薪資%s", time, time * baseSalary * (1.33 + 1.66));
+        } else if (time <= 120) {
+            System.out.printf("工時%s小時, 薪資%s", time, time * baseSalary * (1.33 + 1.66 + 2));
         }
-
-        sc.close();
-    }
-
-    static void printSalary(int baseSalary, double multiplier) {
-        System.out.printf("薪資: %s元", baseSalary * multiplier);
     }
 }
