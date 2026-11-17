@@ -1,0 +1,18 @@
+package com.mcu.javaProj__2026.freshmanyear.introduction_to_computers.selection_structure;
+
+import java.util.Scanner;
+
+public class SelectionStructure_2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int s = sc.nextInt();
+
+        if (s > 100 || s < 0) {
+            System.out.println("輸入資料錯誤");
+        } else if (s >= 80 && s <= 89) {
+            System.out.println("等級B");
+        }
+
+        sc.close();
+    }
+}
