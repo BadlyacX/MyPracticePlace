@@ -1,6 +1,6 @@
-package com.mcu.javaProj__2026.freshmanyear.introduction_to_computers.repetitive_structure;
+package com.mcu.javaProj__2026.freshmanyear.introduction_to_computers.repetitive_structure.while_loop;
 
-public class SimpleGame {
+public class Q2 {
     public static void main(String[] args) {
         int monsterHp = 100;
         int rounds = 0;

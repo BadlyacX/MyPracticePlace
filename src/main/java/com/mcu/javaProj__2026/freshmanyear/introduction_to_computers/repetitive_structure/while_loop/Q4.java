@@ -1,8 +1,8 @@
-package com.mcu.javaProj__2026.freshmanyear.introduction_to_computers.repetitive_structure;
+package com.mcu.javaProj__2026.freshmanyear.introduction_to_computers.repetitive_structure.while_loop;
 
 import java.util.Scanner;
 
-public class ScoreInputCheck {
+public class Q4 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

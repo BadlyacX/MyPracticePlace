@@ -1,8 +1,8 @@
-package com.mcu.javaProj__2026.freshmanyear.introduction_to_computers.repetitive_structure;
+package com.mcu.javaProj__2026.freshmanyear.introduction_to_computers.repetitive_structure.while_loop;
 
 import java.util.Scanner;
 
-public class ScoreAverage {
+public class Q3 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
